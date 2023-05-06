@@ -1,0 +1,64 @@
+.login__body{
+    height: 627px;
+    width: 458px;
+    left: 478px;
+    top: 574px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+.login__header {
+    display: flex;
+    padding-top: 87px;
+    padding-bottom: 25px;
+}
+
+.login__header .login__btn {
+    margin-left: 11.5%;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.login__header .register__btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}  
+
+.login__header .login__btn:hover, .register__btn:hover {
+    transition: 0.8s;
+    transform: translateY(-20%);
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form input{
+    width: 75%;
+    display: flex;
+    border-radius: 7px;
+    padding: 5px;
+    border: none;
+    margin: 5px 12%;
+}
+
+.login__form .login__btn__big{
+    width: 77.5%;
+    margin-left: 12%;
+    border-radius: 7px;
+    border: none;
+    margin-top: 50px;
+    height: 30px;
+    background: #985ACE;
+    color: white;
+    cursor: pointer;
+}
+
+.login__form .login__btn__big:hover{
+    transition: 0.8s;
+    transform: translateY(-10%);
+}
