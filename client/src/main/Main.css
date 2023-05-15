@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(6, 20, 29);
+    width: 1200px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.main_header .logo_twitter{
+    width: 40px;
+    height: 35px;
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.main_header .header_input{
+    width: 130px;
+    height: 20px;
+}
+
+.main_header button {
+    width: 50px;
+    height: 20px;
+    border: none;
+    background:none;
+    color: white;
+    cursor: pointer;
+}
+
+.main_header .home_button{
+    margin-left: 850px;
+}
