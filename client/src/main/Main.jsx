@@ -15,6 +15,7 @@ const Main = () => {
         <div className='main_content'>
             <div className='content_left'></div>
             <div className='content_right'></div>
+            <div className='content_сenter'></div>
         </div>
     </div>
   )
